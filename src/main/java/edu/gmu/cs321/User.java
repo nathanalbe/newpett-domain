@@ -1,7 +1,7 @@
 package edu.gmu.cs321;
 
 public class User {
-    private int id;
+    private int id = 0;
     
     public User() {
         this.id = id++;
