@@ -3,11 +3,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
-public class UserTest {
+public class ImmigrantTest {
 
     @Test
-    public void testUserCreation() {
-        User user = new User();
+    public void testImmigrantCreation() {
+        Immigrant user = new Immigrant();
         assertTrue(user != null, "User should be created successfully");
     }
 }
