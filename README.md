@@ -19,6 +19,7 @@ This repository is organized to follow a clean Maven-based Java project structur
           - `cs321`
             - `App.java`
             - `Immigrant.java`
+            - `Dependent.java`
   - `test`
     - `java`
       - `edu`
