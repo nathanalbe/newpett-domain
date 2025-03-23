@@ -25,6 +25,7 @@ This repository is organized to follow a clean Maven-based Java project structur
         - `gmu`
           - `cs321`
             - `ImmigrantTest.java`
+            - `DependentTest.java`
 - `.vscode/` – VSCode project settings
 - `.gitignore` – Files/folders to ignore in Git
 - `.gitattributes` – Normalizes line endings and encoding
@@ -33,7 +34,9 @@ This repository is organized to follow a clean Maven-based Java project structur
   
 #### ✅ Key Files:
 - `Immigrant.java`: Contains the domain logic for immigrant data and method stubs for create, update, and get operations.
+- `Dependent.java`: Contains the domain logic for dependent data and inherits method stubs for create, update, and get operations from Immigrant.
 - `ImmigrantTest.java`: Contains JUnit tests that follow the TDD approach.
+- `DependentTest.java`: Contains JUnit tests that follow the TDD approach.
 - `.gitignore`, `.gitattributes`: Project hygiene and version control rules.
 - `README.md`: Project and repository documentation.
 - `pom.xml`: Maven configuration file (build automation, dependencies, etc.)
